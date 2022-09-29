@@ -9,7 +9,7 @@
 <li> customer order management; </li>
 <li> configuration of Celery in the project using RabbitMQ as a message broker;  </li>
 <li> sending asynchronous notifications to customers using Celery;  </li>
-<li> Celery monitoring using Flower. </li>
+<li> Celery monitoring using Flower. </li><br>
 
 <p>// Windows compatible version cannot be above 4+</p>
 
@@ -17,7 +17,7 @@
 
 <li>pip install celery==4.4.7</li>
 
-<li>**Open the project in the control panel</li>
+<h3>**Open the project in the control panel</h3>
 <li>open virtual environment</li>
 
 <li>pip install celery==4.4.7</li>
@@ -35,7 +35,7 @@
 <li>• integrate a payment gateway into our project;</li>
 <li>• export orders to CSV files;</li>
 <li>• create custom views for the administration site;</li>
-<li>• dynamically generate PDF invoices.</li>
+<li>• dynamically generate PDF invoices.</li><br>
 
 <p>//Braintree provides an API that allows you to process online payments with various payment methods such as credit card, PayPal, Google Pay and Apple Pay. Learn more about Braintree at https://www.braintreepayments.com/.</p>
 </lo>
