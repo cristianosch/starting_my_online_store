@@ -1,0 +1,43 @@
+//PRIMEIRA PARTE DO PROJETO
+
+• criação de um catálogo de produtos; 
+• implementação de um carrinho de compras usando sessões Django; 
+• criação de processadores de contexto personalizados; 
+• gerenciamento de pedidos dos clientes;
+• configuração do Celery no projeto usando o RabbitMQ como broker de mensagens; 
+• envio de notificações assíncronas aos clientes usando o Celery; 
+• monitoração do Celery utilizando o Flower.
+
+//O vesão compativel com o windows não pode ser acima de 4+
+
+**Instalar o celery
+
+pip install celery==4.4.7
+
+**Abra o projeto no painel de controle
+abrir ambiente virtual
+
+pip install celery==4.4.7
+
+**O celery precisa do gevent para trabalhar corretamente.
+
+pip install gevent
+
+*Ative o celery junto com o gevent
+
+celery -A myshop worker -l info -P gevent
+
+//SEGUNDA PARTE DO PROJETO
+
+• integrar um gateway de pagamento em nosso projeto; 
+• exportar pedidos para arquivos CSV; 
+• criar views personalizadas para o site de administração; 
+• gerar faturas em PDF dinamicamente.
+
+//O Braintree fornece uma API que permite processar pagamentos online com vários métodos de pagamento, como cartão de crédito, PayPal, Google Pay e Apple Pay. Saiba mais sobre o Braintree em https://www.braintreepayments.com/.
+
+
+
+
+ 
+
