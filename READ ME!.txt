@@ -34,7 +34,15 @@ celery -A myshop worker -l info -P gevent
 • criar views personalizadas para o site de administração; 
 • gerar faturas em PDF dinamicamente.
 
-//O Braintree fornece uma API que permite processar pagamentos online com vários métodos de pagamento, como cartão de crédito, PayPal, Google Pay e Apple Pay. Saiba mais sobre o Braintree em https://www.braintreepayments.com/.
+//O Braintree fornece uma API que permite processar pagamentos online com vários métodos de pagamento, como cartão de crédito, PayPal, Google Pay e Apple Pay. Saiba mais sobre o Braintree em 
+https://www.braintreepayments.com/.
+
+//O Braintree disponibiliza uma lista de cartões de crédito válidos e com falha para que você possa testar todos os cenários possíveis. É possível consultar a lista de cartões de crédito para testes em 
+https://developers.braintreepayments.com/guides/credit-cards/testing-go-live/python.
+
+
+
+
 
 
 
